@@ -22762,9 +22762,9 @@ cr.behaviors.solid = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Audio,
+	cr.plugins_.TiledBg,
 	cr.plugins_.Touch,
 	cr.plugins_.Text,
-	cr.plugins_.TiledBg,
 	cr.plugins_.Sprite,
 	cr.behaviors.solid,
 	cr.behaviors.bound,
